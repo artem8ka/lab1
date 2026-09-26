@@ -26,10 +26,10 @@ def test_8():
     assert calculator_function('0*52145+124-6*8/2-50')
 
 def test_9():
-    assert calculator_function('0.5*50')
+    assert calculator_function('-2*-3')
 
 def test_10():
-    assert calculator_function('256/4')
+    assert calculator_function('256 /     4')
 
 def test_11():
     assert calculator_function('00005+4')
